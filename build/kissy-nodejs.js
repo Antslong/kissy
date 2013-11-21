@@ -1,7 +1,7 @@
 /*
 Copyright 2013, KISSY v1.40
 MIT Licensed
-build time: Nov 21 12:00
+build time: Nov 21 23:47
 */
 /**
  * @ignore
@@ -42,11 +42,11 @@ var KISSY = (function (undefined) {
     S = {
         /**
          * The build time of the library.
-         * NOTICE: '20131121120043' will replace with current timestamp when compressing.
+         * NOTICE: '20131121234724' will replace with current timestamp when compressing.
          * @private
          * @type {String}
          */
-        __BUILD_TIME: '20131121120043',
+        __BUILD_TIME: '20131121234724',
 
         /**
          * KISSY Environment.
@@ -1596,7 +1596,7 @@ var KISSY = (function (undefined) {
             // Add a mapping from input (the source object)
             // to output (the destination object) to memory.
             // 做标记
-            input[CLONE_MARKER] = (stamp = S.guid());
+            input[CLONE_MARKER] = (stamp = S.guid('c'));
             // 存储源对象以及克隆后的对象
             memory[stamp] = {destination: destination, input: input};
         }
@@ -5241,7 +5241,7 @@ var KISSY = (function (undefined) {
     var doc = S.Env.host && S.Env.host.document;
     // var logger = S.getLogger('s/loader');
     var Utils = S.Loader.Utils;
-    var TIMESTAMP = '20131121120043';
+    var TIMESTAMP = '20131121234724';
 
     function returnJson(s) {
         return (new Function('return ' + s))();

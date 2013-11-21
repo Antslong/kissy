@@ -501,7 +501,7 @@ function visit203_147_2(result) {
 function visit202_147_1(result) {
   _$jscoverage['/lang/lang.js'].branchData['147'][1].ranCondition(result);
   return result;
-}_$jscoverage['/lang/lang.js'].branchData['144'][1].init(2043, 13, 'isPlainObject');
+}_$jscoverage['/lang/lang.js'].branchData['144'][1].init(2046, 13, 'isPlainObject');
 function visit201_144_1(result) {
   _$jscoverage['/lang/lang.js'].branchData['144'][1].ranCondition(result);
   return result;
@@ -509,7 +509,7 @@ function visit201_144_1(result) {
 function visit200_141_1(result) {
   _$jscoverage['/lang/lang.js'].branchData['141'][1].ranCondition(result);
   return result;
-}_$jscoverage['/lang/lang.js'].branchData['140'][1].init(1864, 7, 'isArray');
+}_$jscoverage['/lang/lang.js'].branchData['140'][1].init(1867, 7, 'isArray');
 function visit199_140_1(result) {
   _$jscoverage['/lang/lang.js'].branchData['140'][1].ranCondition(result);
   return result;
@@ -767,7 +767,7 @@ function visit164_26_1(result) {
           }
         }
         _$jscoverage['/lang/lang.js'].lineData[128]++;
-        input[CLONE_MARKER] = (stamp = S.guid());
+        input[CLONE_MARKER] = (stamp = S.guid('c'));
         _$jscoverage['/lang/lang.js'].lineData[130]++;
         memory[stamp] = {
   destination: destination, 
