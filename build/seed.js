@@ -1,7 +1,7 @@
 /*
 Copyright 2013, KISSY v1.40
 MIT Licensed
-build time: Nov 18 17:45
+build time: Nov 21 12:00
 */
 /**
  * @ignore
@@ -42,11 +42,11 @@ var KISSY = (function (undefined) {
     S = {
         /**
          * The build time of the library.
-         * NOTICE: '20131118174450' will replace with current timestamp when compressing.
+         * NOTICE: '20131121120043' will replace with current timestamp when compressing.
          * @private
          * @type {String}
          */
-        __BUILD_TIME: '20131118174450',
+        __BUILD_TIME: '20131121120043',
 
         /**
          * KISSY Environment.
@@ -3206,7 +3206,7 @@ var KISSY = (function (undefined) {
                             if ((m = ua.match(/rv:([\d.]*)/)) && m[1]) {
                                 UA[core] = numberify(m[1]);
                                 if (/Mobile|Tablet/.test(ua)) {
-                                    o.mobile = "firefox";
+                                    UA.mobile = "firefox";
                                 }
                             }
                             // Firefox
@@ -3252,7 +3252,7 @@ var KISSY = (function (undefined) {
     // use by analysis tools in nodejs
     UA.getDescriptorFromUserAgent = getDescriptorFromUserAgent;
 
-    var o = [
+    var browsers = [
             // browser core type
             'webkit',
             'trident',
@@ -3268,7 +3268,7 @@ var KISSY = (function (undefined) {
         documentElement = doc && doc.documentElement,
         className = '';
     if (documentElement) {
-        S.each(o, function (key) {
+        S.each(browsers, function (key) {
             var v = UA[key];
             if (v) {
                 className += ' ks-' + key + (parseInt(v) + '');
@@ -5380,7 +5380,7 @@ var KISSY = (function (undefined) {
     var doc = S.Env.host && S.Env.host.document;
     // var logger = S.getLogger('s/loader');
     var Utils = S.Loader.Utils;
-    var TIMESTAMP = '20131118174450';
+    var TIMESTAMP = '20131121120043';
 
     function returnJson(s) {
         return (new Function('return ' + s))();
