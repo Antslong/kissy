@@ -245,7 +245,7 @@ if (! _$jscoverage['/editor/z-index-manager.js'].branchData) {
   _$jscoverage['/editor/z-index-manager.js'].branchData['47'] = [];
   _$jscoverage['/editor/z-index-manager.js'].branchData['47'][1] = new BranchData();
 }
-_$jscoverage['/editor/z-index-manager.js'].branchData['47'][1].init(18, 36, 'Editor[\'Config\'].baseZIndex || 10000');
+_$jscoverage['/editor/z-index-manager.js'].branchData['47'][1].init(17, 36, 'Editor[\'Config\'].baseZIndex || 10000');
 function visit1130_47_1(result) {
   _$jscoverage['/editor/z-index-manager.js'].branchData['47'][1].ranCondition(result);
   return result;

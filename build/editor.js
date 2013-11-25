@@ -1,7 +1,7 @@
 /*
 Copyright 2013, KISSY v1.40
 MIT Licensed
-build time: Nov 13 21:53
+build time: Nov 25 11:56
 */
 /*
  Combined processedModules by KISSY Module Compiler: 
@@ -1926,10 +1926,10 @@ KISSY.add("editor/range", function (S, Editor, Utils, Walker, ElementPath) {
      * @enum {number} KISSY.Editor.RangeType
      */
     Editor.RangeType = {
-        POSITION_AFTER_START: 1, // <element>^contents</element>		"^text"
-        POSITION_BEFORE_END: 2, // <element>contents^</element>		"text^"
-        POSITION_BEFORE_START: 3, // ^<element>contents</element>		^"text"
-        POSITION_AFTER_END: 4, // <element>contents</element>^		"text"^
+        POSITION_AFTER_START: 1, // <element>^contents</element>        "^text"
+        POSITION_BEFORE_END: 2, // <element>contents^</element>     "text^"
+        POSITION_BEFORE_START: 3, // ^<element>contents</element>       ^"text"
+        POSITION_AFTER_END: 4, // <element>contents</element>^      "text"^
         ENLARGE_ELEMENT: 1,
         ENLARGE_BLOCK_CONTENTS: 2,
         ENLARGE_LIST_ITEM_CONTENTS: 3,
@@ -4449,7 +4449,7 @@ KISSY.add("editor/selection", function (S,Editor) {
                         // It is also needed when placing the selection right after an inline
                         // element to avoid the selection moving inside of it.
                         dummySpan = new Node(self.document.createElement('span'));
-                        dummySpan.html('&#65279;');	// Zero Width No-Break Space (U+FEFF). See #1359.
+                        dummySpan.html('&#65279;'); // Zero Width No-Break Space (U+FEFF). See #1359.
                         dummySpan.insertBefore(startNode);
                         if (isStartMarkerAlone) {
                             // To expand empty blocks or line spaces after <br>, we need
@@ -8409,6 +8409,14 @@ KISSY.add('editor', function (S, Node, iframeContentTpl, Editor, Utils, focusMan
          */
         getControl: function (id) {
             return this.__controls[id];
+        },
+
+        /**
+         * Synchronize textarea value with editor data.
+         */
+        sync: function () {
+            var self = this;
+            self.get("textarea").val(self.getData());
         },
 
         /**

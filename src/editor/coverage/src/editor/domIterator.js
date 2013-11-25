@@ -492,267 +492,267 @@ if (! _$jscoverage['/editor/domIterator.js'].branchData) {
   _$jscoverage['/editor/domIterator.js'].branchData['317'] = [];
   _$jscoverage['/editor/domIterator.js'].branchData['317'][1] = new BranchData();
 }
-_$jscoverage['/editor/domIterator.js'].branchData['317'][1].init(38, 32, 'isLast || block.equals(lastNode)');
+_$jscoverage['/editor/domIterator.js'].branchData['317'][1].init(37, 32, 'isLast || block.equals(lastNode)');
 function visit274_317_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['317'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['316'][1].init(12818, 16, '!self._.nextNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['316'][1].init(12558, 16, '!self._.nextNode');
 function visit273_316_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['316'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['307'][1].init(36, 93, 'lastChild.prev(bookmarkGuard, 1) || lastChild.next(bookmarkGuard, 1)');
+}_$jscoverage['/editor/domIterator.js'].branchData['307'][1].init(35, 92, 'lastChild.prev(bookmarkGuard, 1) || lastChild.next(bookmarkGuard, 1)');
 function visit272_307_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['307'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['306'][1].init(119, 130, 'UA[\'ie\'] || lastChild.prev(bookmarkGuard, 1) || lastChild.next(bookmarkGuard, 1)');
+}_$jscoverage['/editor/domIterator.js'].branchData['306'][1].init(117, 128, 'UA[\'ie\'] || lastChild.prev(bookmarkGuard, 1) || lastChild.next(bookmarkGuard, 1)');
 function visit271_306_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['306'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['304'][4].init(274, 28, 'lastChild.nodeName() == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['304'][4].init(269, 28, 'lastChild.nodeName() == \'br\'');
 function visit270_304_4(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['304'][4].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['304'][3].init(220, 50, 'lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['304'][3].init(215, 50, 'lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE');
 function visit269_304_3(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['304'][3].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['304'][2].init(220, 82, 'lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE && lastChild.nodeName() == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['304'][2].init(215, 82, 'lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE && lastChild.nodeName() == \'br\'');
 function visit268_304_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['304'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['304'][1].init(204, 98, 'lastChild[0] && lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE && lastChild.nodeName() == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['304'][1].init(199, 98, 'lastChild[0] && lastChild[0].nodeType == Dom.NodeType.ELEMENT_NODE && lastChild.nodeName() == \'br\'');
 function visit267_304_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['304'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['299'][1].init(11948, 12, 'removeLastBr');
+}_$jscoverage['/editor/domIterator.js'].branchData['299'][1].init(11705, 12, 'removeLastBr');
 function visit266_299_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['299'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['294'][2].init(180, 50, 'Dom.nodeName(previousSibling[0].lastChild) == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['294'][2].init(177, 50, 'Dom.nodeName(previousSibling[0].lastChild) == \'br\'');
 function visit265_294_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['294'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['294'][1].init(148, 82, 'previousSibling[0].lastChild && Dom.nodeName(previousSibling[0].lastChild) == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['294'][1].init(145, 82, 'previousSibling[0].lastChild && Dom.nodeName(previousSibling[0].lastChild) == \'br\'');
 function visit264_294_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['294'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['292'][1].init(26, 34, 'previousSibling.nodeName() == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['292'][1].init(25, 34, 'previousSibling.nodeName() == \'br\'');
 function visit263_292_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['292'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['291'][2].init(119, 56, 'previousSibling[0].nodeType == Dom.NodeType.ELEMENT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['291'][2].init(117, 56, 'previousSibling[0].nodeType == Dom.NodeType.ELEMENT_NODE');
 function visit262_291_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['291'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['291'][1].init(97, 78, 'previousSibling[0] && previousSibling[0].nodeType == Dom.NodeType.ELEMENT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['291'][1].init(95, 78, 'previousSibling[0] && previousSibling[0].nodeType == Dom.NodeType.ELEMENT_NODE');
 function visit261_291_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['291'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['289'][1].init(11396, 16, 'removePreviousBr');
+}_$jscoverage['/editor/domIterator.js'].branchData['289'][1].init(11163, 16, 'removePreviousBr');
 function visit260_289_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['289'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['278'][1].init(2632, 7, '!isLast');
+}_$jscoverage['/editor/domIterator.js'].branchData['278'][1].init(2580, 7, '!isLast');
 function visit259_278_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['278'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['259'][1].init(222, 54, '!range.checkStartOfBlock() || !range.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['259'][1].init(218, 54, '!range.checkStartOfBlock() || !range.checkEndOfBlock()');
 function visit258_259_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['259'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['255'][1].init(1455, 24, 'block.nodeName() != \'li\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['255'][1].init(1426, 24, 'block.nodeName() != \'li\'');
 function visit257_255_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['255'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['247'][1].init(121, 15, 'blockTag || \'p\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['247'][1].init(119, 15, 'blockTag || \'p\'');
 function visit256_247_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['247'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['245'][3].init(880, 24, 'block.nodeName() == \'li\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['245'][3].init(861, 24, 'block.nodeName() == \'li\'');
 function visit255_245_3(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['245'][3].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['245'][2].init(854, 50, 'self.enforceRealBlocks && block.nodeName() == \'li\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['245'][2].init(835, 50, 'self.enforceRealBlocks && block.nodeName() == \'li\'');
 function visit254_245_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['245'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['245'][1].init(842, 64, '!block || (self.enforceRealBlocks && block.nodeName() == \'li\')');
+}_$jscoverage['/editor/domIterator.js'].branchData['245'][1].init(823, 64, '!block || (self.enforceRealBlocks && block.nodeName() == \'li\')');
 function visit253_245_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['245'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['242'][1].init(65, 73, 'range.checkStartOfBlock() && range.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['242'][1].init(64, 72, 'range.checkStartOfBlock() && range.checkEndOfBlock()');
 function visit252_242_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['242'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['241'][1].init(47, 139, 'checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['241'][1].init(46, 137, 'checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
 function visit251_241_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['241'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['240'][1].init(44, 187, '!self.enforceRealBlocks && checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['240'][1].init(43, 184, '!self.enforceRealBlocks && checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
 function visit250_240_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['240'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['239'][2].init(535, 19, '!block || !block[0]');
+}_$jscoverage['/editor/domIterator.js'].branchData['239'][2].init(522, 19, '!block || !block[0]');
 function visit249_239_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['239'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['239'][1].init(535, 232, '(!block || !block[0]) && !self.enforceRealBlocks && checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['239'][1].init(522, 228, '(!block || !block[0]) && !self.enforceRealBlocks && checkLimits[startBlockLimit.nodeName()] && range.checkStartOfBlock() && range.checkEndOfBlock()');
 function visit248_239_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['239'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['229'][1].init(22, 55, 'self._.docEndMarker && self._.docEndMarker._4e_remove()');
+}_$jscoverage['/editor/domIterator.js'].branchData['229'][1].init(21, 55, 'self._.docEndMarker && self._.docEndMarker._4e_remove()');
 function visit247_229_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['229'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['228'][1].init(87, 6, '!range');
+}_$jscoverage['/editor/domIterator.js'].branchData['228'][1].init(85, 6, '!range');
 function visit246_228_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['228'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['226'][1].init(8214, 6, '!block');
+}_$jscoverage['/editor/domIterator.js'].branchData['226'][1].init(8044, 6, '!block');
 function visit245_226_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['226'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['221'][2].init(4998, 19, 'closeRange && range');
+}_$jscoverage['/editor/domIterator.js'].branchData['221'][2].init(4898, 19, 'closeRange && range');
 function visit244_221_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['221'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['221'][1].init(4986, 33, 'isLast || (closeRange && range)');
+}_$jscoverage['/editor/domIterator.js'].branchData['221'][1].init(4886, 33, 'isLast || (closeRange && range)');
 function visit243_221_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['221'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['213'][1].init(4614, 11, 'includeNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['213'][1].init(4522, 11, 'includeNode');
 function visit242_213_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['213'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['201'][1].init(87, 37, 'isLast || parentNode.equals(lastNode)');
+}_$jscoverage['/editor/domIterator.js'].branchData['201'][1].init(85, 37, 'isLast || parentNode.equals(lastNode)');
 function visit241_201_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['201'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['199'][2].init(127, 30, 'self.forceBrBreak && {\n  br: 1}');
+}_$jscoverage['/editor/domIterator.js'].branchData['199'][2].init(124, 30, 'self.forceBrBreak && {\n  br: 1}');
 function visit240_199_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['199'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['199'][1].init(96, 62, 'parentNode._4e_isBlockBoundary(self.forceBrBreak && {\n  br: 1})');
+}_$jscoverage['/editor/domIterator.js'].branchData['199'][1].init(93, 62, 'parentNode._4e_isBlockBoundary(self.forceBrBreak && {\n  br: 1})');
 function visit239_199_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['199'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['196'][1].init(29, 38, '!currentNode[0].nextSibling && !isLast');
+}_$jscoverage['/editor/domIterator.js'].branchData['196'][1].init(28, 38, '!currentNode[0].nextSibling && !isLast');
 function visit238_196_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['196'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['195'][1].init(3841, 20, 'range && !closeRange');
+}_$jscoverage['/editor/domIterator.js'].branchData['195'][1].init(3767, 20, 'range && !closeRange');
 function visit237_195_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['195'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['191'][2].init(3593, 26, '!closeRange || includeNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['191'][2].init(3523, 26, '!closeRange || includeNode');
 function visit236_191_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['191'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['191'][1].init(3593, 60, '(!closeRange || includeNode) && currentNode.equals(lastNode)');
+}_$jscoverage['/editor/domIterator.js'].branchData['191'][1].init(3523, 60, '(!closeRange || includeNode) && currentNode.equals(lastNode)');
 function visit235_191_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['191'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['185'][1].init(3327, 21, 'includeNode && !range');
+}_$jscoverage['/editor/domIterator.js'].branchData['185'][1].init(3263, 21, 'includeNode && !range');
 function visit234_185_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['185'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['179'][1].init(184, 51, 'beginWhitespaceRegex.test(currentNode[0].nodeValue)');
+}_$jscoverage['/editor/domIterator.js'].branchData['179'][1].init(181, 51, 'beginWhitespaceRegex.test(currentNode[0].nodeValue)');
 function visit233_179_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['179'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['176'][1].init(2808, 49, 'currentNode[0].nodeType == Dom.NodeType.TEXT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['176'][1].init(2753, 49, 'currentNode[0].nodeType == Dom.NodeType.TEXT_NODE');
 function visit232_176_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['176'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['165'][1].init(112, 6, '!range');
+}_$jscoverage['/editor/domIterator.js'].branchData['165'][1].init(110, 6, '!range');
 function visit231_165_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['165'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['163'][1].init(100, 25, 'currentNode[0].firstChild');
+}_$jscoverage['/editor/domIterator.js'].branchData['163'][1].init(98, 25, 'currentNode[0].firstChild');
 function visit230_163_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['163'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['156'][1].init(255, 16, 'nodeName != \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['156'][1].init(250, 16, 'nodeName != \'br\'');
 function visit229_156_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['156'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['151'][1].init(868, 5, 'range');
+}_$jscoverage['/editor/domIterator.js'].branchData['151'][1].init(853, 5, 'range');
 function visit228_151_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['151'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['141'][3].init(315, 16, 'nodeName != \'hr\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['141'][3].init(310, 16, 'nodeName != \'hr\'');
 function visit227_141_3(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['141'][3].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['141'][2].init(278, 53, '!currentNode[0].childNodes.length && nodeName != \'hr\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['141'][2].init(273, 53, '!currentNode[0].childNodes.length && nodeName != \'hr\'');
 function visit226_141_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['141'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['141'][1].init(268, 63, '!range && !currentNode[0].childNodes.length && nodeName != \'hr\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['141'][1].init(263, 63, '!range && !currentNode[0].childNodes.length && nodeName != \'hr\'');
 function visit225_141_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['141'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['139'][1].init(166, 16, 'nodeName == \'br\'');
+}_$jscoverage['/editor/domIterator.js'].branchData['139'][1].init(163, 16, 'nodeName == \'br\'');
 function visit224_139_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['139'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['136'][2].init(120, 30, 'self.forceBrBreak && {\n  br: 1}');
+}_$jscoverage['/editor/domIterator.js'].branchData['136'][2].init(117, 30, 'self.forceBrBreak && {\n  br: 1}');
 function visit223_136_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['136'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['136'][1].init(88, 63, 'currentNode._4e_isBlockBoundary(self.forceBrBreak && {\n  br: 1})');
+}_$jscoverage['/editor/domIterator.js'].branchData['136'][1].init(85, 63, 'currentNode._4e_isBlockBoundary(self.forceBrBreak && {\n  br: 1})');
 function visit222_136_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['136'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['133'][1].init(615, 12, '!includeNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['133'][1].init(603, 12, '!includeNode');
 function visit221_133_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['133'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['128'][1].init(376, 52, 'currentNode[0].nodeType != Dom.NodeType.ELEMENT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['128'][1].init(369, 52, 'currentNode[0].nodeType != Dom.NodeType.ELEMENT_NODE');
 function visit220_128_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['128'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['108'][1].init(2057, 16, '!self._.lastNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['108'][1].init(2019, 16, '!self._.lastNode');
 function visit219_108_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['108'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['102'][1].init(119, 29, 'path.block || path.blockLimit');
+}_$jscoverage['/editor/domIterator.js'].branchData['102'][1].init(117, 29, 'path.block || path.blockLimit');
 function visit218_102_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['102'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['100'][1].init(180, 27, 'testRange.checkEndOfBlock()');
+}_$jscoverage['/editor/domIterator.js'].branchData['100'][1].init(177, 27, 'testRange.checkEndOfBlock()');
 function visit217_100_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['100'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['96'][3].init(56, 108, '!S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
+}_$jscoverage['/editor/domIterator.js'].branchData['96'][3].init(56, 107, '!S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
 function visit216_96_3(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['96'][3].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['96'][2].init(1306, 53, 'self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE');
+}_$jscoverage['/editor/domIterator.js'].branchData['96'][2].init(1280, 53, 'self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE');
 function visit215_96_2(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['96'][2].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['96'][1].init(39, 165, 'self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE && !S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
+}_$jscoverage['/editor/domIterator.js'].branchData['96'][1].init(38, 164, 'self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE && !S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
 function visit214_96_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['96'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['95'][1].init(1264, 205, 'self._.lastNode && self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE && !S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
+}_$jscoverage['/editor/domIterator.js'].branchData['95'][1].init(1239, 203, 'self._.lastNode && self._.lastNode[0].nodeType == Dom.NodeType.TEXT_NODE && !S.trim(self._.lastNode[0].nodeValue) && self._.lastNode.parent()._4e_isBlockBoundary()');
 function visit213_95_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['95'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['78'][1].init(294, 36, 'self.forceBrBreak || !self.enlargeBr');
+}_$jscoverage['/editor/domIterator.js'].branchData['78'][1].init(286, 36, 'self.forceBrBreak || !self.enlargeBr');
 function visit212_78_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['78'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['70'][1].init(482, 16, '!self._.lastNode');
+}_$jscoverage['/editor/domIterator.js'].branchData['70'][1].init(468, 16, '!self._.lastNode');
 function visit211_70_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['70'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['39'][1].init(301, 25, 'self._ || (self._ = {})');
+}_$jscoverage['/editor/domIterator.js'].branchData['39'][1].init(290, 25, 'self._ || (self._ = {})');
 function visit210_39_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['39'][1].ranCondition(result);
   return result;
-}_$jscoverage['/editor/domIterator.js'].branchData['29'][1].init(14, 20, 'arguments.length < 1');
+}_$jscoverage['/editor/domIterator.js'].branchData['29'][1].init(13, 20, 'arguments.length < 1');
 function visit209_29_1(result) {
   _$jscoverage['/editor/domIterator.js'].branchData['29'][1].ranCondition(result);
   return result;

@@ -178,6 +178,14 @@ KISSY.add('editor', function (S, Node, iframeContentTpl, Editor, Utils, focusMan
         },
 
         /**
+         * Synchronize textarea value with editor data.
+         */
+        sync: function () {
+            var self = this;
+            self.get("textarea").val(self.getData());
+        },
+
+        /**
          * Retrieve all controls.
          * @member KISSY.Editor
          */
